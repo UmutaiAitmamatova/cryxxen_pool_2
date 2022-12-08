@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content__img{
+    width: 100%;
+    height: 300px;
+    background: url("../../assets/Content.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
