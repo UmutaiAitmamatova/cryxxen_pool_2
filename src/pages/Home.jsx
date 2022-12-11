@@ -11,6 +11,8 @@ const Home = () => {
           setServers(json.servers);
       })
   }, [])
+
+
   return (
     <div className="wrapper">
       <Header />

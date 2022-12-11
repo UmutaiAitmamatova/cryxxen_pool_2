@@ -65,10 +65,44 @@
     border: 1px solid #000000;
     
 }
+.menu__btn{
+    display: none;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.menu__btn::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 30px;
+    height: 2px;
+    background-color: #FFAE2B;
+}
+.senond{
+    width: 30px;
+    height: 2px;
+    background-color: #FFAE2B;
+    top: 15px;
+    position: absolute;
+}
+.menu__btn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 2px;
+    background-color: #FFAE2B;
+}
 
 @media screen and (max-width: 790px){
     .right__nav{
         display: none;
+    }
+    .menu__btn{
+        display: block;
     }
     .header__left{
         display: none;

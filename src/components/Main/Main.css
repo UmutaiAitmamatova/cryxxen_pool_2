@@ -9,7 +9,7 @@
     background: url("../../assets/Main.png") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction: column;
     align-items: center;

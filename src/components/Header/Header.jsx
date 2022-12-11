@@ -1,7 +1,19 @@
 import React from "react";
 import "./Header.css";
+import Menu from "../Menu/Menu";
+
 
 const Header = () => {
+    const menu = [
+        {value: 'Overview', href: '#'},
+        {value: 'Pages', href: '#'},
+        {value: 'Pages', href: '#'},
+        {value: 'Portfolio', href: '#'},
+        {value: 'Template', href: '#'},
+        {value: 'Contact', href: '#'}
+      ]
+    const [menuActive, setMenuActive] = React.useState(false)
+
     return (
         <div className="header">
             <div className="container">
@@ -30,8 +42,12 @@ const Header = () => {
                     <div className="header__left">
                             <button className="btn">Buy Template</button>
                     </div>
+                    <div className="menu__btn" onClick={() => setMenuActive(!menuActive)}>
+                        <span className="senond"/>
+                    </div>
                 </div>
             </div>
+            <Menu active={menuActive} setActive={setMenuActive} header={'Menu'} items={menu}/>
         </div>
     );
 };
