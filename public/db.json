@@ -1,0 +1,132 @@
+{
+    "content": [
+        {
+            "id": 0,
+            "contentImg": "/content/1.png",
+            "title": "Landing vr.1."
+        },
+        {
+            "id": 1,
+            "contentImg": "/content/2.png",
+            "title": "Landing vr.2"
+        },
+        {
+            "id": 2,
+            "contentImg": "/content/3.png",
+            "title": "Landing vr.3"
+        },
+        {
+            "id": 3,
+            "contentImg": "/content/4.png",
+            "title": "Portfolio 1"
+        },
+        {
+            "id": 4,
+            "contentImg": "/content/5.png",
+            "title": "Portfolio 1"
+        },
+        {
+            "id": 5,
+            "contentImg": "/content/6.png",
+            "title": "Portfolio 1"
+        },
+        {
+            "id": 6,
+            "contentImg": "/content/7.png",
+            "title": "Portfolio 1"
+        },
+        {
+            "id": 7,
+            "contentImg": "/content/8.png",
+            "title": "Single Project"
+        },
+        {
+            "id": 8,
+            "contentImg": "/content/9.png",
+            "title": "About Company"
+        },
+        {
+            "id": 9,
+            "contentImg": "/content/10.png",
+            "title": "About TEam"
+        },
+        {
+            "id": 10,
+            "contentImg": "/content/11.png",
+            "title": "Single Team Member"
+        },
+        {
+            "id": 11,
+            "contentImg": "/content/12.png",
+            "title": "FAQ PAge"
+        },
+        {
+            "id": 12,
+            "contentImg": "/content/13.png",
+            "title": "Contact Us"
+        },
+        {
+            "id": 13,
+            "contentImg": "/content/14.png",
+            "title": "Blog 1"
+        },
+        {
+            "id": 14,
+            "contentImg": "/content/15.png",
+            "title": "Blog 2"
+        },
+        {
+            "id": 15,
+            "contentImg": "/content/16.png",
+            "title": "Blog 3"
+        },
+        {
+            "id": 16,
+            "contentImg": "/content/17.png",
+            "title": "Blog Categories"
+        },
+        {
+            "id": 17,
+            "contentImg": "/content/18.png",
+            "title": "Single Blog"
+        },
+        {
+            "id": 18,
+            "contentImg": "/content/19.png",
+            "title": "Pricing"
+        },
+        {
+            "id": 19,
+            "contentImg": "/content/20.png",
+            "title": "Style guide"
+        },
+        {
+            "id": 20,
+            "contentImg": "/content/1.png",
+            "title": "Single Blog"
+        }
+    ], 
+    "servers": [
+        {
+            "id": 0,
+            "contentImg": "/content/icon1.png",
+            "title": "Web Design",
+            "subtitle": "Suspendisse varius enim in",
+            "p": "cursus id rutrum imperdiet. eros elementum tristique."
+        },
+        {
+            "id": 1,
+            "contentImg": "/content/icon2.png",
+            "title": "UI/UX Design",
+            "subtitle": "Suspendisse varius enim in",
+            "p": "cursus id rutrum imperdiet. eros elementum tristique."
+        },
+        {
+            "id": 2,
+            "contentImg": "/content/icon3.png",
+            "title": "SEO & Marketing",
+            "subtitle": "Suspendisse varius enim in",
+            "p": "cursus id rutrum imperdiet. eros elementum tristique."
+        }
+    ]
+}

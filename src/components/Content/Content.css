@@ -1,0 +1,23 @@
+.content__inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+@media screen and (max-width: 992px){
+    .content__inner{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 768px){
+    .content__inner{
+        display: flex;
+        justify-content: space-around;
+    }
+}

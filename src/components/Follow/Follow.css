@@ -1,0 +1,45 @@
+:root{
+    --gap: 1em;
+    --index: calc(1vw + 1vh);
+    --color-dark: #000;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.follow{
+    margin: 40px 0;
+}
+.hr{
+    height: 1px;
+    border: 1px;
+    background-color: #4B4136;
+}
+.follow__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.follow__block{
+    margin: 40px 0 20px 0;
+    width: 220px;
+}
+.follow__img{
+    position: relative;
+}
+.follow__logo{
+    position: absolute;
+    z-index: 1;
+    margin-top: -45px;
+    margin-left: 80px;
+    padding-top: 15px;
+    
+}
+
+@media screen and (max-width: 992px){
+    .follow__inner{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}

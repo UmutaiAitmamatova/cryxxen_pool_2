@@ -1,0 +1,28 @@
+:root{
+    --gap: 1em;
+    --index: calc(1vw + 1vh);
+    --color-dark: #000;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section{
+    width: 100%;
+    height: 200px;
+    background-color: #181511;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section__title{
+    text-align: center;
+    font-size: calc(var(--index) * 3);
+    color: #FFAE2B;
+}
+.section__subtitle{
+    margin-top: 20px;
+    font-size: calc(var(--index) * .7);
+    color: #fff;
+    text-align: center;
+}
