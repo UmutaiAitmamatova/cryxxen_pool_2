@@ -1,6 +1,5 @@
 import React from "react";
-import { Main, Header, ContentImg, Footer, Section, Service, Content } from "../components";
-import Follow from "../components/Follow/Follow";
+import { Main, Header, ContentImg, Footer, Section, Service, Content, Follow } from "../components";
 
 const Home = () => {
   const [content, setContent] = React.useState([]);
@@ -11,7 +10,6 @@ const Home = () => {
           setServers(json.servers);
       })
   }, [])
-
 
   return (
     <div className="wrapper">

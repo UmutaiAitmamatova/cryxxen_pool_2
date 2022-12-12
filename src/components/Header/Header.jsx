@@ -2,17 +2,16 @@ import React from "react";
 import "./Header.css";
 import Menu from "../Menu/Menu";
 
-
 const Header = () => {
     const menu = [
-        {value: 'Overview', href: '#'},
-        {value: 'Pages', href: '#'},
-        {value: 'Pages', href: '#'},
-        {value: 'Portfolio', href: '#'},
-        {value: 'Template', href: '#'},
-        {value: 'Contact', href: '#'}
-      ]
-    const [menuActive, setMenuActive] = React.useState(false)
+        { id: 0, value: "Overview", href: "#" },
+        { id: 1, value: "Pages", href: "#" },
+        { id: 2, value: "Pages", href: "#" },
+        { id: 3, value: "Portfolio", href: "#" },
+        { id: 4, value: "Template", href: "#" },
+        { id: 5, value: "Contact", href: "#" },
+    ];
+    const [menuActive, setMenuActive] = React.useState(false);
 
     return (
         <div className="header">
@@ -40,14 +39,19 @@ const Header = () => {
                         </div>
                     </div>
                     <div className="header__left">
-                            <button className="btn">Buy Template</button>
+                        <button className="btn">Buy Template</button>
                     </div>
                     <div className="menu__btn" onClick={() => setMenuActive(!menuActive)}>
-                        <span className="senond"/>
+                        <span className="senond" />
                     </div>
                 </div>
             </div>
-            <Menu active={menuActive} setActive={setMenuActive} header={'Menu'} items={menu}/>
+            <Menu
+                active={menuActive}
+                setActive={setMenuActive}
+                header={"Menu"}
+                items={menu}
+            />
         </div>
     );
 };
