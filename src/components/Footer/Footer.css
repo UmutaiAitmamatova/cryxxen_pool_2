@@ -76,6 +76,7 @@ p{
 }
 .footer__end{
     height: 30px;
+    font-size: calc(var(--index) * .8);
     display: flex;
     justify-content: space-between;
     align-items: center;
